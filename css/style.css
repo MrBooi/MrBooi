@@ -87,11 +87,15 @@ display: none;
 
 
 div.project {
-    margin: 5px;
+    margin-left: 20px;
+      /* margin-right:  10px; */
     border: 1px solid grey;
-    float: left;
+    float:left;
     width: 180px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
+
 
   div.project:hover {
    border: 1px solid lightgray;
@@ -106,12 +110,30 @@ div.project {
     padding: 15px;
     text-align: center;
   }
+
+  footer p{
+    font-size: 1em;
+  line-height: 0.6rem;
+  }
 footer{
-    padding:20px;
+  height: 18px;
+    padding:10px;
     margin-top:20px;
     color:#ffffff;
     background-color:gray;
     text-align: center;
+  }
+
+  #GithubProfile{
+  width: 60px;
+  float: right;
+
+  }
+  .moreinfo p{
+  font-weight: bold;
+  font-size: 1.5em;
+  font: bold;
+
   }
 
   @media screen and (min-width:720px){
@@ -160,6 +182,8 @@ div.project {
     border: 1px solid grey;
     float: left;
     width: 180px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   div.project:hover {
@@ -189,4 +213,10 @@ div.project {
   text-decoration: none;
 
 }
+
+
+
+
+
+
     }
