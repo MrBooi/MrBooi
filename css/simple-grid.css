@@ -271,12 +271,6 @@ h2,h3 ,h4{
 
 }
 
-
-
-
-
-
-
 body{
   width: 90%;
 
@@ -298,7 +292,8 @@ width: auto;
 h5{
 
   text-align: center
-}.col-4 img{
-
+}
+ .center img{
+  /* margin: 0 auto; */
   width: 200px;
 }
