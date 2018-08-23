@@ -1,250 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-    <!-- css stylesheet -->
-      <link rel="stylesheet" href="css/simple-grid.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- icon link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> -->
 </head>
+
 <body>
     <header>
-    <div class="container">
-            <div class="header">
-                    <a  class="home" href="index.html">Portfolio</a>
-                    <div class="nav-links">
-                      <a class="nav-item" href="#About">About</a>
-                      <a class="nav-item" href="#projects">Projects</a>
-                      <a class="nav-item" href="#Contact">Contacts</a>
-                    </div>
-                  </div>
-    </div>
-</header>
-
-              <div class="row">
-               <div class="col-12">
-
-                <section id="Background"></section>
-               </div>
-
-              </div>
-          <div class="container">
-                <div class="row">
-                  <div class="col-12">
-                    <p id="About">About</p>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">MrBooi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-white">
+                    <a class="nav-item nav-link active " href="#">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link " href="#About">About</a>
+                    <a class="nav-item nav-link " href="#">ToolBox</a>
+                    <a class="nav-item nav-link " href="#">Projects</a>
+                    <a class="nav-item nav-link " href="#">Contact</a>
                 </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-container">
+
+        <div id="home">
+            <div class="header-content">
+                <h1 class="first-heading">
+                    Ayabonga
+                    <span class="secondary">Booi</span>
+                </h1>
+                <h2 class="second-heading">
+                    <p>Full-Stack web Deverloper in Cape Town.</p>
+                </h2>
+                <ul class="list-icons">
+                    <li>
+                        <a href="#!">
+                            <i class="ion-social-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!">
+                            <i class="ion-social-facebook"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!">
+                            <i class="ion-social-github"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- About Me -->
+
+        <div class="row white box-shadow">
+            <div class="side-content"></div>
+            <div class="main-content">
+                <div class="content-hearder">
+                    <h2 id="About">
+                        <i class="fas fa-user-alt"></i> About</h2>
+                </div>
+
+                <div class="content-body">
+                    <div class="media">
+                        <img class="mr-3 content-img" src="About.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                            <p> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                                purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                                nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Fusce condimentum nunc
+                                ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-content"></div>
+        </div>
+    </div>
+
+    <div class="row blue box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <h2 id="ToolBox">
+                    <i class="fas fa-wrench"></i> ToolBox</h2>
+            </div>
+
+            <div class="content-body">
                 <div class="row">
-                 <div class="center">
-                   <img class="about" src="img/About.png" alt="">
-                 </div>
-
-                 <!-- <div class="col-6">
-               <p>Fullname:&nbsp    Ayabonga Booi</p>
-               <p>codex 2018 </p>
-               <p>fullstack developer</p>
-               <p>Github Username:&nbsp<a href="" target="_blank">MrBooi</a></p>
-               <p>Github:<a href="https://github.com/MrBooi"></a>MrBooi</p>
-               <p></a>email: &nbsp<a href="">ayabongabooi2@gmail.com</a></p>
-               <p>CV link: &nbsp<a href="https://resume.io/app/resumes/590711/experience">My CV</a></p>
-               </div>
-              </div> -->
-           <section>
-               <div class="row">
-                   <div class="col-12">
-                    <p>Description About Me</p>
-                   </div>
-
-                   <div class="col-12">
-                       <p>My name is Ayabonga Booi i'm Currently a student at Codex doing Fullstack web developer.I also have a background in Software Testing
-                       whereby i was testing for the biggest company called DVT.I was exposure in programming while i was still young using Java langauge which is my strongest langauge that i know.</p>
-                      </div>
-
-                 </div>
-           </section>
-              </div>
-          <div class="row">
-                <div class="col-12">
-                    <h1>My ToolBox</h1>
-                    <p>Currently in my toolbox:</p>
+                    <div class="col">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-node"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-git"></i>
+                    </div>
+                    <div class="col">
+                        <i class="fab fa-react"></i>
+                    </div>
+                </div>
 
             </div>
-          <section id="boxes">
-                <div class="container">
-                  <div class="box">
-                    <img src="./img/logo_html.png">
-                    <h3>HTML5 Markup</h3>
+            <div class="side-content"></div>
+        </div>
+    </div>
 
-                  </div>
-                  <div class="box">
-                    <img src="./img/logo_css.png">
-                    <h3>CSS3 Styling</h3>
-
-                  </div>
-                  <div class="box">
-                    <img src="./img/logo-javascript.png">
-                    <h3>JavaScript</h3>
-                  </div>
-                </div>
-              </section>
-
-              <section>
-                    <div class="row">
-                    <div class="col-12">
-                      <h1> Software Testing Tools</h1>
-                    </div>
-                    <section id="boxes">
-                        <div class="container">
-                          <div class="box">
-                            <img src="./img/Appium.png">
-                            <h3>Appium</h3>
-
-                          </div>
-                          <div class="box">
-                            <img src="./img/UFT.png">
-                            <h3>UFT Functional Testing</h3>
-
-                          </div>
-                          <div class="box">
-                            <img src="./img/selenium.jpeg">
-                            <h3>Selenium</h3>
-                          </div>
-                        </div>
-                      </section>
-
-
-<div class="row">
-   <div class="col-12">
-                        <h1 id ="projects">Front-End Projects</h1>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="project">
-                                <a target="_blank" href="https://mrbooi.github.io/basic-webpage/">
-                                  <img src="img/Basic-webpage3.png" alt="Java" width="300" height="200">
-                                </a>
-                                <div class="Description"> CSS and HTML</div>
-                              </div>
-                        </div>
-
-                        <div class="col-3">
-                            <div class="project">
-                                <a target="_blank" href="https://mrbooi.github.io/basic-webpage/index-grid.html">
-                                  <img src="img/Basic-webpage3.png" alt="Java" width="300" height="200">
-                                </a>
-                                <div class="Description">simple-grid framework</div>
-                              </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="project">
-                                <a target="_blank" href="https://mrbooi.github.io/bootcamp-tests/index.html">
-                                  <img src="img/TDD.png" alt="Java" width="290" height="190">
-                                </a>
-                                <div class="Description">TDD test </div>
-                              </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="project">
-                                <a target="_blank" href="*">
-                                  <img src="img/comingSoon.png" alt="Java" width="300" height="200">
-                                </a>
-                                <div class="Description">Coming soon</div>
-                              </div>
-                        </div>
-
-                        </div>
+    <!-- lastest Projects -->
+    <div class="row white box-shadow">
+        <div class="side-content"></div>
+        <div class="main-content">
+            <div class="content-header">
+                <h2 id="Projects">
+                    <i class="fas fa-laptop-code"></i> Projects
+                </h2>
+                <div class="content-body">
+                    <div class="album py-5 by-light">
                         <div class="row">
-                          <div class="col-12">
-                          <h1>Back-End Projects</h1>
-                          </div>
-
-                          <div class="col-3">
-                              <div class="project">
-                                  <a target="_blank" href="">
-                                    <img src="img/comingSoon.png" alt="Java" width="300" height="200">
-                                  </a>
-                                  <div class="Description">Coming Soon</div>
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"
+                                        src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22508%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20508%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16566ca41c8%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16566ca41c8%22%3E%3Crect%20width%3D%22508%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22169.265625%22%20y%3D%22123.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <a href="">
+                                                <h5>Shoe Api</h5>
+                                            </a>
+                                            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                                            longer.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                          </div>
+                            </div>
+                            <!-- second project -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"
+                                        src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22508%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20508%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16566ca41c8%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16566ca41c8%22%3E%3Crect%20width%3D%22508%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22169.265625%22%20y%3D%22123.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <a href="">
+                                                <h5>Waiter Availability</h5>
+                                            </a>
+                                            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                                            longer.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                                            </div>
 
-                          <div class="col-3">
-                              <div class="project">
-                                  <a target="_blank" href="*">
-                                    <img src="img/comingSoon.png" alt="Java" width="300" height="200">
-                                  </a>
-                                  <div class="Description">coming Soon</div>
+                                        </div>
+                                    </div>
                                 </div>
-                          </div>
-                          <div class="col-3">
-                              <div class="project">
-                                  <a target="_blank" href="*">
-                                    <img src="img/comingSoon.png" alt="Java" width="300" height="200">
-                                  </a>
-                                  <div class="Description">Coming Soon</div>
+                            </div>
+                            <!-- Third project -->
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]"
+                                        src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22508%22%20height%3D%22225%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20508%20225%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_16566ca41c8%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A25pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_16566ca41c8%22%3E%3Crect%20width%3D%22508%22%20height%3D%22225%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22169.265625%22%20y%3D%22123.6%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                                        data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            <a href="">
+                                                <h5>Face Recognition</h5>
+                                            </a>
+                                            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit
+                                            longer.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                                <button type="button" class="btn btn-sm btn-outline-secondary">Github</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                 </div>
-                          </div>
-                          <div class="col-3">
-                              <div class="project">
-                                  <a target="_blank" href="*">
-                                    <img src="img/comingSoon.png" alt="Java" width="300" height="200">
-                                  </a>
-                                  <div class="Description">Coming Soon</div>
-                                </div>
-                          </div>
+                            </div>
 
-          </div>
-
-           <!-- more info -->
-              <div class="row">
-                <div class="col-12">
-                    <h1 id="Contact">More info</h1>
-                </div>
-              </div>
-
-               <div class="row">
-
-                 <div class="col-6">
-                   <div class="moreinfo">
-                     <p>Ayabonga Booi</p>
-                      <p>+27 63 6564 200</p>
-                      <p>ayabongabooi2@gmail.com</p>
-                    <!-- <a href="http://cvmkr.com/ZPOr" target="_blank"><p>My CV link "</p></a> -->
-
-                   </div>
-
-                 </div>
-                <div class="col-6">
-                <!-- <a href="https://github.com/MrBooi">  <img id="GithubProfile" src="img/Github.png"  target="_blank" alt=""></a> -->
-                </div>
-
-               </div>
-
-             <div class="social">
-               <div class="row">
-                 <div class="center">
-                     <!-- <a href="*"><i class="fa fa-facebook" target="_blank"></i></a> -->
-                     <a href="https://www.linkedin.com/in/ayabonga-booi-147b95142/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                     <a href="https://github.com/MrBooi/repositories" target="_blank"><i class="fa fa-github"></i></a>
-                     <!-- <a href="*"><i class="fa fa-twitter" target="_blank"></i></a> -->
-                 </div>
-               </div>
-             </div>
-
-
-               <div id="footer">
-                    <div class="container text-center">
-                      <div class="fnav">
-                        <p>Copyright &copy; 2018 Ayabonga. Designed by Aybonga Booi
-                         <a href="">ayabongabooi2@mail.com</a>
-                        </p>
-                      </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
+    <!-- contact me -->
+    <div class="row white box-shadow">
+            <div class="side-content"></div>
+            <div class="main-content">
+                <div class="content-header">
+                    <h2 id="ToolBox">
+                     <i class="fas fa-envelope"></i> Contact Me</h2>
+                </div>
+    
+                <div class="content-body">
+                     <h3><i class="far fa-envelope"></i> 
+                        ayabongabooi2@gmail.com</h3>
+                    </div>
+                    <h3><i class="far fa-phone"></i>
+                       063-6564-200<h3>
+                    </div>
+                </div>
+                <div class="side-content"></div>
+            </div>
+    </div>
+
+
+ <footer>Copyright © 2018 Ayabonga. Designed by Aybonga Booi <a href="">ayabongabooi2@mail.com</a></footer>
+    <!-- end of container div -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 </html>
