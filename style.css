@@ -1,8 +1,14 @@
+ html{
+     width: 100%;
+     margin: 0;
+     padding: 0;
+ }
 body{
     background: rgba(242,242,242, 0);
     margin: 0;
     height: 100%;
     width: 100%;
+    padding: 0;
 }
 
 *{
@@ -64,7 +70,10 @@ header{
     display: flex;
     flex-direction: column;
 }
-
+.row{
+    margin: 0;
+    padding: 0;
+}
  .header-content {
     height: 100vh;
     text-align: center;
@@ -116,7 +125,8 @@ header{
 }
 
 .side-content{
-    flex: 0 0 16.6%;
+    flex: 0 0 16.2%;
+    margin: 0;
 }
 
 
