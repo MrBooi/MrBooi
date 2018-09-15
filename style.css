@@ -74,6 +74,19 @@ header{
     margin: 0;
     padding: 0;
 }
+#About,#ToolBox,#Project{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+#about-second{
+    color: rgb(12, 12, 12);
+    font-size: 1.64rem;
+    margin: 0.82rem 0px 0.656rem;
+}
+
+.about-img{
+    border-radius: 50%;
+}
  .header-content {
     height: 100vh;
     text-align: center;
@@ -206,7 +219,11 @@ footer{
     background-color: #31b0d5;
 }
 
-@media screen and (max-width: 375px) {
+.content-img img{
+    width: 280;
+}
+
+/* @media screen and (max-width: 375px) {
 
     .media  {
         display:flex;
@@ -220,9 +237,9 @@ footer{
 
     }
    
-}
+} */
 
-@media screen and (max-width:414px){
+/* @media screen and (max-width:414px){
     .media  {
         display:flex;
        flex-direction: column;
@@ -233,9 +250,9 @@ footer{
    font-size: 1.2rem;
 
     }
-}
+} */
 
-@media screen and (max-width:768px){
+/* @media screen and (max-width:768px){
     .media  {
          display:flex; 
        flex-direction: column;
@@ -246,7 +263,7 @@ footer{
    font-size: 1.2rem;
 
     }
-}
+} */
 
 
 
