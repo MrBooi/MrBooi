@@ -78,6 +78,12 @@ margin: 0 auto;
     width:100%;
   }
 
+  /* h5{
+    font-weight: 400 !important;
+    font-size: 1.64rem;
+    margin: 0.82rem 0px 0.65rem;
+  } */
+
 h1, p{
 text-align: center
 }
@@ -120,34 +126,7 @@ div.project {
      margin: 10px;
    }
 
-  #footer {
-    background: #f6f6f6;
-    color: #777;
-    padding: 30px 0 25px 0;
-  }
-  #footer p {
-    font-size: 13px;
-  }
-  #footer a {
-    color: #555;
-  }
-  #footer a:hover {
-    color: #000;
-  }
 
-
-  /* footer p{
-    font-size: 1em;
-  line-height: 0.6rem;
-  }
-footer{
-  height: 18px;
-    padding:10px;
-    margin-top:20px;
-    color:#ffffff;
-    background-color:gray;
-    text-align: center;
-  } */
 
   #GithubProfile{
   width: 60px;
@@ -162,16 +141,9 @@ footer{
 
   }
 
-  .card-columns {
-    @include media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @include media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }
 
-  @media screen and (min-width:720px){
+
+  /* @media screen and (min-width:720px){
       body{
 
           background-color: white;
@@ -252,4 +224,4 @@ div.project {
 
 
   }
-    
+     */
