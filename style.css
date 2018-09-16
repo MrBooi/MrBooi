@@ -106,6 +106,20 @@ h5,#about-second{
     flex-direction: column;
   }
 
+ 
+
+
+  .details{
+      font-weight: 300;
+      font: 1.01rem;
+      text-align: center;
+      color: rgba(0,0,0, .75);
+  }
+  .detail-icon{
+       font-size: 3rem;
+  
+       text-align: center;
+   }
 .first-heading{
     text-transform: uppercase;
     font-weight: 700;
@@ -232,7 +246,12 @@ footer{
 .content-img img{
     width: 280;
 }
-
+.info{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(0,0,0, .75);
+    width: 100%;
+}
 /* @media screen and (max-width: 375px) {
 
     .media  {
