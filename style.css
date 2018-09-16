@@ -111,13 +111,13 @@ h5,#about-second{
 
   .details{
       font-weight: 300;
-      font: 1.01rem;
+      font-size: 1.4rem;
       text-align: center;
       color: rgba(0,0,0, .75);
+      
   }
   .detail-icon{
        font-size: 3rem;
-  
        text-align: center;
    }
 .first-heading{
