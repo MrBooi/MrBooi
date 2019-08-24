@@ -213,7 +213,32 @@ img {
 
 .aboutImg img {
   border-radius: 50%;
+  padding-bottom: 10px;
 
+}
+
+.ul-skills{
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-skills{
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: white;
+  background: #454d55;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+}
+
+.li-skills:hover {
+  color: #f4623a;
+}
+
+.toolBox li{
+  display: inline-block;
 }
 .about_img img {
   width: 100 ;
