@@ -22,7 +22,36 @@
   <!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
 
   <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.css" rel="stylesheet">
+  <link href="css/creative.css" rel="stylesheet"> 
+
+  <!-- handlebars for Skills Template  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
+  <script type="text/x-template" class="skills-Template">
+    {{#each skills}}
+    <li class="li-skills">{{this}}</li>
+    {{/each}}
+  </script>
+
+  <!-- Handlebars for Personal projects -->
+  <script type="text/x-template" class="project-Template">
+    {{#each data}}
+    <div class="col-md-4 col-sm-6">
+        <a href={{projectUrl}}  target='blank'>
+            <div class="project-hover-content">
+                <p class="view-project">{{status}}</p>
+              </div>
+             <img class="img-fluid " src={{poster}} style="height: 260px" alt="">
+        </a>
+       <div class="project-caption bg-light ">
+          
+         <h4 class=" text-left  project-header">{{projectName}}</h4>
+         <p class=" text-left text-muted project-subtitle text-dark-75">{{projectDescription}}</p>
+          <li class="github-project"><a href={{githubUrl}}  target='blank' class="js-scroll-trigger social-github "><i class="ion-social-github"></i></a></li>
+       </div>
+      </div>
+    {{/each}}
+  </script>
 
 </head>
 
@@ -93,9 +122,8 @@
           <p class="text-white-50 mb-4">
             Hello world! My name is Ayabonga Booi and I'm a Full-Stack web developer and Mobile developer with a passion for designing programs that will help others.
             As a Young Developer , i enjoy using my unequivocal love for making things, and my mission-driven work ethic to literally change the world and I'm learning new skills and am growing in front-end and back-end development to build the best sites and Mobile apps possible .
-            I used the best current technologies and techniques to optimize the performance of a website and Mobile Apps.
+            I use the best current technologies and techniques to optimize the performance of a website and Mobile Apps.
           </p>
-          <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
         </div>
       </div>
     </div>
@@ -112,23 +140,9 @@
           </p>
        </div>
       <div class="row justify-content-center">
-        <div class="col-lg-8 "> 
+        <div class="col-lg-8 col-sm-6"> 
              <ul class="ul-skills">
-                <li class="li-skills">Flutter</li>
-                <li class="li-skills">Dart</li>
-                <li class="li-skills">JavaScript</li>
-                <li class="li-skills">Node js</li>
-                <li class="li-skills">Firebase</li>
-                <li class="li-skills">MongoDB</li>
-                <li class="li-skills">PostgreSql</li>
-                <li class="li-skills">HTML5</li>
-                <li class="li-skills">CSS</li>
-                <li class="li-skills">React</li>
-                <li class="li-skills">Bootstrap</li>
-                <li class="li-skills">Java</li>
-                <li class="li-skills">Mocha</li>
-                <li class="li-skills">HandleBars</li>
-                <li class="li-skills">Travis CI</li>
+              
              </ul>
         </div>
      
@@ -140,8 +154,15 @@
   <!-- Project Section ss -->
   <section class="page-section bg-dark text-white" id="projects">
     <div class="container text-center">
-      <h2 class="mb-4">My Lastest Projects</h2>
+      <h2 class="mb-3">My Lastest Projects</h2>
+      <hr class="divider my-4">
       <p>Coming Soon...</p>
+        <div class="row project-display">
+        
+        </div>
+
+      
+      </div>
     </div>
   </section>
 
@@ -162,7 +183,7 @@
         </div>
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <a class="d-block" href="mailto:ayabongabooi2@gmail.com">ayabongabooi2@gmail.com</a>
+          <a class="d-block" href="mailto:ayabongabooi2@gmail.com" style="font-size: 1rem">ayabongabooi2@gmail.com</a>
         </div>
       </div>
     </div>
@@ -174,6 +195,14 @@
       <div class="small text-center text-muted">Copyright &copy; 2019 - AyabongaBooi | MrBooi</div>
     </div>
   </footer>
+   
+
+
+
+   <!-- load Data -->
+   <!-- <script src="/js/data/skills.js"></script> -->
+   <!-- loading DOM  -->
+  <script src="/js/loadData.js"></script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="js/jquery/jquery.min.js"></script>
@@ -185,6 +214,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
+
+  
 
 </body>
 
