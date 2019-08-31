@@ -84,7 +84,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             skills: skills()
         });
 
-    // projectElem.innerHTML = projectTemplate({
-    //     data: latestProjects()
-    // });
+    projectElem.innerHTML = projectTemplate({
+        data: latestProjects()
+    });
 });
