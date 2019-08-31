@@ -9,8 +9,6 @@ const projectTemplateSource = document.querySelector('.project-Template').innerH
 const projectTemplate = Handlebars.compile(projectTemplateSource);
 
 
-
-
 let listOfSkills = [
     'Flutter',
     'Dart',
