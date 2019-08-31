@@ -74,8 +74,8 @@ const projects = [{
 
 const skills = () => listOfSkills;
 
-
 const latestProjects = () => projects;
+
 
 window.addEventListener('DOMContentLoaded', (event) => {
     console.log(skills())
