@@ -8,215 +8,65 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>MrBooi | Ayabonga Booi</title>
+  <title> Ayabonga Booi| Mobile Developer </title>
 
-  <!-- Font Awesome Icons -->
+  <!-- Font ionicons Icons -->
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
  
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Assistant:wght@300&family=Space+Mono&display=swap" rel="stylesheet" type='text/css'>
 
-  <!-- Plugin CSS -->
-  <!-- <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet"> -->
 
-  <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.css" rel="stylesheet"> 
-
-  <!-- handlebars for Skills Template  -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
-
-  <script type="text/x-template" class="skills-Template">
-    {{#each skills}}
-    <li class="li-skills">{{this}}</li>
-    {{/each}}
-  </script>
-
-  <!-- Handlebars for Personal projects -->
-  <script type="text/x-template" class="project-Template">
-    {{#each data}}
-    <div class="col-md-4 col-sm-6">
-        <a href={{projectUrl}}  target='blank'>
-            <div class="project-hover-content">
-                <p class="view-project">{{status}}</p>
-              </div>
-             <img class="img-fluid " src={{poster}} style="height: 260px" alt="">
-        </a>
-       <div class="project-caption bg-light ">
-          
-         <h4 class=" text-left  project-header">{{projectName}}</h4>
-         <p class=" text-left text-muted project-subtitle text-dark-75">{{projectDescription}}</p>
-          <li class="github-project"><a href={{githubUrl}}  target='blank' class="js-scroll-trigger social-github "><i class="ion-social-github"></i></a></li>
-       </div>
-      </div>
-    {{/each}}
-  </script>
+  <link href="css/style.css" rel="stylesheet"> 
 
 </head>
 
 <body id="page-top">
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">MrBooi</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#ToolBox">ToolBox</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+
+  <header>
+    <div class="header-inner">
+        <a href="#" class="logo">Ayabonga <span>Booi</span></a>
     </div>
-  </nav>
+</header>
+<main>
 
-  <!-- Masthead -->
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Ayabonga Booi</h1>
-          <hr class="divider my-4">
+  <section id="about" class="about">
+    <div class="about-inner">
+        <h1 class="about-title">My name is <span class="typing" id="typeText"></span></h1>
+        <figure>
+            <img src="./img/About.png" alt="about-image">
+        </figure>
+        <div class="socials">
+            <a class="social" href="https://www.linkedin.com/in/ayabonga-booi/" target="_blank"><i class="fab fa-linkedin-in"></i></a> |
+            <a class="social" href="https://github.com/MrBooi" target="_blank"><i class="fab fa-github"></i></a> |
+            <a class="social" href="https://twitter.com/BooiAyabonga"><i class="fab fa-twitter"></i></a> 
+ 
         </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Full-Stack Web Developer & Mobile Developer In Cape Town.</p>
-
-          <div class="container text-center col-lg-8 align-self-baseline">
-
-              <li class="social"><a class=" js-scroll-trigger" href="https://www.linkedin.com/in/ayabonga-booi/" target="blank"><i class="ion-social-linkedin"></i></a></li>
-              <li class="social"><a class=" js-scroll-trigger" href="https://twitter.com/BooiAyabonga" target="blank"><i class="ion-social-twitter"></i></a></li>
-              <li class="social"><a class=" js-scroll-trigger" href="https://www.facebook.com/ayabongbooi.ayabonga" target="blank"><i class="ion-social-facebook"></i></a></li>
-              <li class="social"><a class=" js-scroll-trigger" href="https://github.com/MrBooi" target="blank"><i class="ion-social-github"></i></a></li>
-          </div>
-
-         
-         
-        </div>
-      </div>
+        <div class="line"></div>
+        <p class="about-description">
+          Hello world! I'm a Mobile developer with a passion for designing programs that will help others. As a Young Developer ,
+          i enjoy using my unequivocal love for making things, and my mission-driven work ethic to literally 
+          change the world and I'm learning new skills and am growing in front-end and back-end 
+          development to build the best Mobile apps possible . I use the best current
+         technologies and techniques to optimize the performance of a  Mobile Apps.
+        <br> <br>
+        <strong>My current tech include:</strong> 
+        <br>
+        Flutter - Dart - TypeScript - Node js - JavaScript - React Js - MongoDB</p>
     </div>
-  </header>
-
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">A BIT ABOUT ME...</h2>
-          <hr class="divider light my-4">
-           <div class="aboutImg">
-             <img class="about_img"  src="./img/About.png" alt="myAvatar" style="width: 100%; width: 180px; height: 180px; border-radius: 50%;">
-           </div>
-          <p class="text-white-50 mb-4">
-            Hello world! My name is Ayabonga Booi and I'm a Full-Stack web developer and Mobile developer with a passion for designing programs that will help others.
-            As a Young Developer , i enjoy using my unequivocal love for making things, and my mission-driven work ethic to literally change the world and I'm learning new skills and am growing in front-end and back-end development to build the best sites and Mobile apps possible .
-            I use the best current technologies and techniques to optimize the performance of a website and Mobile Apps.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Current tech Stack Section  -->
-  <section class="page-section" id="ToolBox">
-    <div class="container">
-      <h2 class="text-center mt-0">CURRENT TECH STACK</h2>
-      <hr class="divider my-4">
-       <div class=" align-self-baseline text-center">
-          <p class="text-dark-75 font-weight-light mb-5">
-              PROGRAMMING LANGUAGES & TOOLS
-          </p>
-       </div>
-      <div class="row justify-content-center">
-        <div class="col-lg-8 col-sm-6"> 
-             <ul class="ul-skills">
-              
-             </ul>
-        </div>
-     
-      </div>
-    </div>
-  </section>
-
-
-  <!-- Project Section ss -->
-  <section class="page-section bg-dark text-white" id="projects">
-    <div class="container text-center">
-      <h2 class="mb-3">My Lastest Projects</h2>
-      <hr class="divider my-4">
-      <!-- <p>Coming Soon...</p> -->
-        <div class="row project-display">
-        
-        </div>
-
-      
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section yes -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">Let's keep in touch if you would like to work with me or have any questions and I will get back to you as soon as possible.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div>+27 (063) 656-4200</div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <a class="d-block" href="mailto:ayabongabooi2@gmail.com" style="font-size: 1rem">ayabongabooi2@gmail.com</a>
-        </div>
-      </div>
-    </div>
-  </section>
+</main>
 
   <!-- Footer -->
-  <footer class="bg-light py-4">
-    <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - AyabongaBooi | MrBooi</div>
+  <footer>
+    <div class="footer-inner">
+        <p class="copyright">Copyright &copy; 2021 - Ayabonga Booi |  Mobile Developer </p>
     </div>
-  </footer>
-   
-
-
-
-   <!-- load Data -->
-   <!-- <script src="/js/data/skills.js"></script> -->
-   <!-- loading DOM  -->
-   <script src="js/loadData.js"></script>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="js/jquery/jquery.min.js"></script>
-  <script src="js//bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="js/jquery-easing/jquery.easing.min.js"></script>
-  <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
-
-  
-
+</footer>
+  <script src="https://kit.fontawesome.com/d5a84b61e8.js" crossorigin="anonymous"></script>
+   <script src="js/main.js"></script>
 </body>
 
 </html>
