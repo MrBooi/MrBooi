@@ -1,7 +1,7 @@
 ### Hi there 👋, I am Ayabonga Booi!
 
 Ayabonga Booi is a Intermediate Flutter Developer with a passion for building programs that will help others, I enjoy using my unequivocal love for making things, and my mission-driven work ethic to literally change the world. Learning is by passion so am always learning new skills to help me become a great front-end and back-end developer. I use the best ccurrent technologies and techniques to optimize the performance the apps I build.
-
+---
 
 
 
