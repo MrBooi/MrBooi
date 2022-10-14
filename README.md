@@ -4,7 +4,7 @@ Hi 👋 My name is Ayabonga Booi
 Flutter Developer
 -----------------
 
-Ayabonga Booi is an Intermediate Flutter Developer with a passion for building programs that will help others, I enjoy using my unequivocal love for making things, and my mission-driven work ethic to literally change the world. Learning is my passion so am always learning new skills to help me become a great front-end and back-end developer. I use the best current technologies and techniques to optimize the performance of the apps I build.
+Ayabonga Booi is Flutter Engineer with a passion for building programs that will help others, I enjoy using my unequivocal love for making things, and my mission-driven work ethic to literally change the world. Learning is my passion so am always learning new skills to help me become a great front-end and back-end developer. I use the best current technologies and techniques to optimize the performance of the apps I build.
 
 * 🌍  I'm based in Cape Town
 * ✉️  You can contact me at [ayabongabooi2@gmail.com](mailto:ayabongabooi2@gmail.com)
